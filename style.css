@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body, main {
+    height: 100%;
+    font-family: sans-serif;
+}
+
+header {
+    height: 100%;
+    background-image: url(./img/Baner.png);
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.tourism {
+    width: 100%;
+    text-align: center;
+    padding-top: 80px;
+    font-size: 20px;
+}
+
+.header-text {
+    width: 40%;
+    margin-left: 15%;
+    margin-top: 15%;
+}
+
+.line1 {
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 1;
+    opacity: 0.5;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 5px;
+    line-height: 1;
+    font-size: 64px;
+}
+
+.header-p {
+    font-size: 20px;
+}
+main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery {
+    width: 60%;
+    max-width: 1000px;
+}
+
+.gallery-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+h2 {
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 1;
+}
+
+.gallery-p {
+    font-size: 18px;
+}
+.gallery-photos{
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 0 10px 1px rgba( 0,0,0,0.3)
+}
+
+.photo1{ 
+    width: 55%;
+}
+
+.photos {
+    margin-left: 20px;
+}
+.photo2 {
+    margin-bottom: 20px;
+}
+footer {
+    height: 300px;
+    background-image: url(./img/footer.jpg);
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+}      
+.text1 {
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 1px solid white;
+    width: 18%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.text2 {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
